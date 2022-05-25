@@ -1,63 +1,13 @@
 <?php
-/* 
-Oggi pomeriggio ripassate i primi concetti di classe e di variabili e metodi d'istanza che abbiamo visto stamattina e create un file index.php in cui:
-è definita una classe ‘Movie’
-=> all'interno della classe sono dichiarate delle variabili d'istanza
-=> all'interno della classe è definito un costruttore
-=> all'interno della classe è definito almeno un metodo
- vengono istanziati almeno due oggetti ‘Movie’ e stampati a schermo i valori delle relative proprietà
-*/
 require_once __DIR__ . '/bd.php';
-
-/* echo "<h2>Print all attributes</h2>";
-echo "<h4> Avatar </h4>";
-echo $avatar->title . "<br>";
-echo $avatar->genre . "<br>";
-echo $avatar->language . "<br>";
-echo "<h4> Batman </h4>";
-echo $batman->title . "<br>";
-echo $batman->genre . "<br>";
-echo $batman->language . "<br>";
-echo "<h4> Romanzo Criminale </h4>";
-echo $romanzo_criminale->title . "<br>";
-echo $romanzo_criminale->genre . "<br>";
-echo $romanzo_criminale->language . "<br>";
-
-echo "<h2>Print all attributes with Method</h2>";
-echo "<h4> Avatar </h4>";
-echo $avatar->getTitle() . "<br>";
-echo $avatar->getGenre() . "<br>";
-echo $avatar->getLanguage() . "<br>";
-echo "<h4> Batman </h4>";
-echo $batman->getTitle() . "<br>";
-echo $batman->getGenre() . "<br>";
-echo $batman->getLanguage() . "<br>";
-echo "<h4> Romanzo Criminale </h4>";
-echo $romanzo_criminale->getTitle() . "<br>";
-echo $romanzo_criminale->getGenre() . "<br>";
-echo $romanzo_criminale->getLanguage() . "<br>";
-
-$avatar->setTitle('Avatar 2.0');
-$batman->setTitle('Batman: Arkham Asylium');
-$romanzo_criminale->setTitle('Romanzo Criminale: La Serie');
-
-echo "<h2>Print Title with Method after Set Title Method</h2>";
-echo "<h4> Avatar </h4>";
-echo $avatar->getTitle() . "<br>";
-echo "<h4> Batman </h4>";
-echo $batman->getTitle() . "<br>";
-echo "<h4> Romanzo Criminale </h4>";
-echo $romanzo_criminale->getTitle() . "<br>"; */
 include __DIR__ . '/layout/head.php';
-//var_dump($avatar,$batman,$romanzo_criminale);
 ?>
-
     <main>
         <?php 
         include __DIR__ . '/partials/jumbo.php';
-        include __DIR__ . '/partials/movies.php';
         ?>
-
-    </main>
-    
+        <div class="container d-flex align-items-center py-5">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio voluptatibus deleniti modi ut eaque provident, tempora accusamus beatae, ipsum, est sed consequuntur voluptate quas! Quidem magni, exercitationem recusandae officia laborum molestiae doloremque quo sapiente omnis laudantium adipisci vitae velit error voluptates alias est eveniet consectetur, iste autem odio culpa placeat perspiciatis iusto tenetur? Pariatur a harum dolores deleniti, doloribus cumque eligendi, quod hic molestiae repudiandae, deserunt adipisci unde error quos eaque facere! Quibusdam laborum minima veniam vero sit fugit tenetur praesentium mollitia ipsam similique aperiam voluptatum sequi laboriosam saepe atque, perspiciatis earum corrupti ullam debitis non officiis! Molestiae ut magni omnis, rem suscipit, neque repellendus repellat, fugit laborum totam non saepe! Pariatur debitis rem sapiente error architecto quisquam voluptate veniam perferendis fuga? Reiciendis nostrum nulla suscipit ducimus, accusamus aliquam aspernatur laudantium eius voluptates. Error, repellat fugit harum quo possimus porro placeat atque inventore? Cupiditate eveniet nisi iure facere neque exercitationem rem maiores ad, ratione quidem nemo officiis aperiam corrupti harum error tenetur? Quidem soluta quibusdam, molestias nemo sapiente incidunt voluptatum? Autem ipsum distinctio, odio placeat itaque et dolorum enim molestiae nihil fugit omnis explicabo. Sed voluptate deserunt repellendus nobis nulla vel ducimus sit. Soluta corrupti nesciunt minima doloremque commodi quasi.</p>
+        </div>
+    </main>    
 <?php include __DIR__ . '/layout/footer.php';
