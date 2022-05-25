@@ -7,13 +7,9 @@ Oggi pomeriggio ripassate i primi concetti di classe e di variabili e metodi d'i
 => all'interno della classe è definito almeno un metodo
  vengono istanziati almeno due oggetti ‘Movie’ e stampati a schermo i valori delle relative proprietà
 */
-require_once __DIR__ . '/Models/Movie.php';
+require_once __DIR__ . '/bd.php';
 
-$avatar=new Movie('Avatar','Fantascienza','Inglese');
-$batman=new Movie('Batman','Polizzesco','Americano');
-$romanzo_criminale=new Movie('Romanzo Criminale','Drammatico','Italiano');
-
-echo "<h2>Print all attributes</h2>";
+/* echo "<h2>Print all attributes</h2>";
 echo "<h4> Avatar </h4>";
 echo $avatar->title . "<br>";
 echo $avatar->genre . "<br>";
@@ -51,6 +47,17 @@ echo $avatar->getTitle() . "<br>";
 echo "<h4> Batman </h4>";
 echo $batman->getTitle() . "<br>";
 echo "<h4> Romanzo Criminale </h4>";
-echo $romanzo_criminale->getTitle() . "<br>";
-
+echo $romanzo_criminale->getTitle() . "<br>"; */
+include __DIR__ . '/layout/head.php';
 //var_dump($avatar,$batman,$romanzo_criminale);
+?>
+
+    <main>
+        <?php 
+        include __DIR__ . '/partials/jumbo.php';
+        include __DIR__ . '/partials/movies.php';
+        ?>
+
+    </main>
+    
+<?php include __DIR__ . '/layout/footer.php';

@@ -4,10 +4,12 @@ class Movie{
     public $title;
     public $genre;
     public $language;
-    function __construct($title,$genre,$language) {
+    public $image;
+    function __construct($title,$genre,$language,$image) {
         $this->title = $title;
         $this->genre = $genre;
         $this->language = $language;
+        $this->image = $image;
     }
     public function getTitle()
     {
@@ -32,5 +34,13 @@ class Movie{
     public function setLanguage($language)
     {
         $this->language = $language;
+    }
+    public function getImage()
+    {
+        return $this->image;
+    }
+    public function setImage($image)
+    {
+        $this->image = $image;
     }
 };
