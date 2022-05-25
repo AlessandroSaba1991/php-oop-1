@@ -19,9 +19,9 @@
 <body>
     <header>
         <nav class="nav nav-tabs nav-stacked justify-content-center">
-            <a class="nav-link" href="http://localhost/PHP/php-oop-1/#">Home</a>
-            <a class="nav-link" href="http://localhost/PHP/php-oop-1/movie.php">Movie</a>
-            <a class="nav-link" href="http://localhost/PHP/php-oop-1/about.php">About</a>
+            <a class="nav-link" href="./index.php">Home</a>
+            <a class="nav-link" href="./movie.php">Movie</a>
+            <a class="nav-link" href="./about.php">About</a>
         </nav>
     </header>
    
